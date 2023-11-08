@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF4EF;
+    background-color: #fff;
 }
 
 /* Styling for the nav bar at top of page */
@@ -10,7 +10,6 @@ header {
     align-items: center;
     padding: 2%;
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #152852;
     color: #fff;
 }
 
@@ -39,11 +38,16 @@ img {
     width: 100%;
 }
 
+.nav {
+    background-color: hotpink;
+}
+
 .navItems li {
     /* places navigation links in line with each other */
     display: inline-block;
     padding: 0px 10px;
-    color: #fff;
+    color: white;
+    text-decoration: none;
 }
 
 a {
@@ -136,6 +140,9 @@ a {
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.footer-custom {
+    background-color: hotpink;
+}
 /* Styling for featured project within project showcase*/
 #image1 {
     position: relative;
