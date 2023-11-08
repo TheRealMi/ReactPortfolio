@@ -10,10 +10,11 @@ export default function Contact() {
             Name
           </label>
           <input
-            type="email"
+            type="text"
             className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
+            id="nameInput"
+            aria-describedby="nameHelp"
+            required
           />
         </div>
         <div className="mb-3">
@@ -21,9 +22,10 @@ export default function Contact() {
             Email Address
           </label>
           <input
-            type="password"
+            type="email"
             className="form-control"
             id="exampleInputPassword1"
+            required
           />
         </div>
         <div className="mb-3">
@@ -34,6 +36,7 @@ export default function Contact() {
             className="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
+            required
           ></textarea>
         </div>
         <button type="submit" className="btn btn-primary">

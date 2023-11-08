@@ -48,7 +48,7 @@ img {
 
 a {
     /* Eliminates link styling */
-    text-decoration: none;
+    text-decoration: none!;
     font-size: 120%;
     color: #fff;
 }

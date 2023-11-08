@@ -10,11 +10,13 @@ export default function Work() {
             src="./assets/images/Home-SS.png"
             alt="Homepage for Pawgress app"
           />
+        </a>
+        <section className="projectCaptions">
+          <h3>Pawgress</h3>
+          <a href="https://github.com/TheRealMi/Pawgress">
+            <p>Github repo</p>
           </a>
-          <section className="projectCaptions">
-            <h3>Pawgress</h3>
-            <p>HTML/CSS, JavaScript, Handlebars</p>
-          </section>
+        </section>
       </section>
       <section className="projectCard">
         <a href="https://bizwliz.github.io/gympal-project-one/">
@@ -22,10 +24,13 @@ export default function Work() {
             src="assets/images/GymPal.png"
             alt="Homepage for Gym Pal project"
           />
-          <section className="projectCaptions">
-            <h3>Gym Pal</h3>
-          </section>
         </a>
+        <section className="projectCaptions">
+          <h3>Gym Pal</h3>
+          <a href="https://github.com/bizwliz/gympal-project-one">
+            <p>Github repo</p>
+          </a>
+        </section>
       </section>
       <section className="projectCard">
         <a href="https://therealmi.github.io/HoriseonRefactor/">
@@ -33,10 +38,13 @@ export default function Work() {
             src="./assets/images/Challenge1.PNG"
             alt="Big image of challenge one"
           />
-          <section className="projectCaptions">
-            <h3>Horiseon Refactor</h3>
-          </section>
         </a>
+        <section className="projectCaptions">
+          <h3>Horiseon Refactor</h3>
+          <a href="https://github.com/TheRealMi/HoriseonRefactor">
+            <p>Github repo</p>
+          </a>
+        </section>
       </section>
       <section className="projectCard">
         {/* <a href="#">  ADD LINK TO FINISHED PROJECT HERE*/}
@@ -46,6 +54,9 @@ export default function Work() {
         />
         <section className="projectCaptions">
           <h3>Project 4</h3>
+          <a href="">
+            <p>Github repo</p>
+          </a>
         </section>
         {/* </a> */}
       </section>
