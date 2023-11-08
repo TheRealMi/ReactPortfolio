@@ -68,11 +68,12 @@ a {
 
 
 .sectionTitle {
-    /* Splits section titles to left of page */
-    width: 10%;
-    border-right: 3px solid #152852;
-    text-align: right;
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid #152852;
+    text-align: left;
     padding-top: 1%;
+    margin-bottom: 2%;
 }
 
 .sectionTitle h2 {
@@ -112,7 +113,7 @@ a {
 .projectCard {
     width: 45%;
     position: relative;
-    margin: 10px 0px;
+    margin: 2%;
     height: fit-content;
 }
 .projectCard img {
