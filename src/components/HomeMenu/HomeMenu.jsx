@@ -1,5 +1,7 @@
 import {motion} from "framer-motion"
 const Menu = ()=>{
-    return();
+    return(
+        <div></div>
+    );
 }
 export default Menu;
