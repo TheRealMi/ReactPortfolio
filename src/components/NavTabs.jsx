@@ -2,6 +2,7 @@
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className="fixed">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -55,6 +56,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import './home.css';
 
 export default function Home() {
     return (
-        <div>
+        <div className='main-menu'>
             <img className="menuTitle" src="/assets/images/codedByMi.png" alt="coded by Mi" />
             <div className="menuContainer">
             <button className='menuButtons'>

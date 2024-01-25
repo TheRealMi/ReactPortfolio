@@ -15,6 +15,7 @@ export default function PortfolioContainer() {
     if (currentPage === "About") {
       return (
         <div>
+          <Home />
           <About />
           <Footer />
         </div>
@@ -23,6 +24,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Work") {
       return (
         <div>
+          <Home />
           <Work />
           <Footer />
         </div>
@@ -31,6 +33,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Resume") {
       return (
         <div>
+          <Home />
           <Resume />
           <Footer />
         </div>
@@ -39,6 +42,7 @@ export default function PortfolioContainer() {
     if(currentPage === "Contact"){
     return (
       <div>
+        <Home />
         <Contact />
         <Footer />
       </div>
@@ -58,7 +62,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
+      {renderPage()}
     </div>
   );
 }
