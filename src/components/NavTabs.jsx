@@ -11,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          <img src='/assets/images/aboutMi.png' alt='about Mi'/>
         </a>
       </li>
       <li className="nav-item">
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Work`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
         >
-          Work
+          <img src='/assets/images/Projects.png' alt='projects'/>
         </a>
       </li>
       <li className="nav-item">
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          <img src="/assets/images/resume.png" alt="resume" />
         </a>
       </li>
       <li className="nav-item">
@@ -42,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          <img src="/assets/images/contactMi.png" alt="contact Mi" />
         </a>
       </li>
     </ul>

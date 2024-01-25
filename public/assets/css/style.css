@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #fdcbb0;
 }
 
 /* Styling for the nav bar at top of page */
@@ -40,21 +40,6 @@ img {
 
 .nav {
     background-color: #165a4c;
-}
-
-.navItems li {
-    /* places navigation links in line with each other */
-    display: inline-block;
-    padding: 0px 10px;
-    color: white;
-    text-decoration: none;
-}
-
-a {
-    /* Eliminates link styling */
-    text-decoration: none!;
-    font-size: 120%;
-    color: #fff;
 }
 
 /* Sets background image to span screen size */
@@ -140,9 +125,6 @@ a {
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.footer-custom {
-    background-color: hotpink;
-}
 /* Styling for featured project within project showcase*/
 #image1 {
     position: relative;
