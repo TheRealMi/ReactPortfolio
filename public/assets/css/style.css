@@ -1,45 +1,13 @@
-body {
-    background-color: #fdcbb0;
-}
-
-/* Styling for the nav bar at top of page */
-/* Parent level uses display: flex */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fff;
-}
-
-header h1 {
-    width: 50%;
-    font-size: 35px;
-}
-
-figure {
-    position: relative;
-}
-
-figure h2 {
-    position: absolute;
-    z-index: 1;
-    padding: 2%;
-    bottom: 3%;
-    left: 85%;
-    box-shadow: #fff 4px 4px 2px;
-    background-color: #152852;
-    color: #fff;
-    font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 img {
     width: 100%;
 }
 
 .nav {
     background-color: #165a4c;
+}
+
+.nav-link.active {
+    background-color: #fdcbb0;
 }
 
 /* Sets background image to span screen size */
