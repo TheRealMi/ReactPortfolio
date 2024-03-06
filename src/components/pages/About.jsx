@@ -1,12 +1,17 @@
+import './about.css';
+
 export default function About() {
   return (
-    <section className="contentSection">
-      <section id="about" className="sectionTitle">
-        <h2>About Mi</h2>
-      </section>
+    <div className="container">
+      
+      <div className='frame'>
       <section className="profilePic">
         <img src="./assets/images/pixelpfp.png" alt="Pixelated Avatar" />
       </section>
+      </div>
+      <div className='banner'>
+        <h1>About Mi</h1>
+      </div>
       <section className="text">
         <p>
           I'm a self-proclaimed "renaissance woman" who thrives in the world of
@@ -29,6 +34,7 @@ export default function About() {
           field. Together, we can create something extraordinary. 💪💻
         </p>
       </section>
-    </section>
+    
+    </div>
   );
 }
