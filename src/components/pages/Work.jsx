@@ -1,9 +1,6 @@
 export default function Work() {
   return (
     <section className="contentSection">
-      <section id="work" className="sectionTitle">
-        <h2>Projects By Mi</h2>
-      </section>
       <section className="projectCard">
         <a href="https://pawgress-263620beafdd.herokuapp.com/">
           <img
@@ -47,18 +44,18 @@ export default function Work() {
         </section>
       </section>
       <section className="projectCard">
-        {/* <a href="#">  ADD LINK TO FINISHED PROJECT HERE*/}
+        <a href="https://sneaker-swap.vercel.app/">
         <img
-          src="./assets/images/sea.jpg"
-          alt="Smaller image of another project"
+          src="./assets/images/SneakerSwap.PNG"
+          alt="SneakerSwap Homepage"
         />
         <section className="projectCaptions">
-          <h3>Project 4</h3>
-          <a href="">
+          <h3>Sneaker Swap</h3>
+          <a href="https://github.com/rich-taveras/Sneaker-Swap">
             <p>Github repo</p>
           </a>
         </section>
-        {/* </a> */}
+        </a>
       </section>
     </section>
   );
