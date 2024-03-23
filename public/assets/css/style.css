@@ -53,7 +53,7 @@ img {
     width: 100%;
 }
 .text a {
-    color: #152852;
+    color: #ca691c;
 }
 
 /*Styling for project gallery*/
@@ -86,9 +86,11 @@ img {
     z-index: 1;
     padding: 1%;
     bottom: 10%;
-    box-shadow: #fff 4px 4px 2px;
-    background-color: #152852;
-    color: #fff;
+    border: 6px solid #ca691c;
+    border-radius: 3px;
+    box-shadow: 10px 10px 6px #c78a61;
+    background-color: #fdd182;
+    color: #3a3a3a;
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -111,8 +113,7 @@ img {
     z-index: 1;
     padding: 1%;
     bottom: 10%;
-    box-shadow: #fff 4px 4px 2px;
-    background-color: #152852;
+    background-color: #fdd182;
     color: #fff;
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

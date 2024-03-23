@@ -1,8 +1,8 @@
 export default function Resume() {
   return (
     <section className="contentSection">
-      <section id="contact" className="sectionTitle">
-        <h2>My Resume</h2>
+      <section className="scrollIcon">
+        <img src="./assets/images/ResumeScroll.png" alt="Pixelated Scroll" />
       </section>
       <section className="text">
         <h4>
