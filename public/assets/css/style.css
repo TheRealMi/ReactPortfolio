@@ -56,64 +56,6 @@ img {
     color: #ca691c;
 }
 
-/*Styling for project gallery*/
-.projectShowcase {
-    width: 88%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 1%;
-}
-
-/* Sets positioning and styling for images of projects */
-.projectCard {
-    width: 45%;
-    position: relative;
-    margin: 2%;
-    height: fit-content;
-}
-.projectCard img {
-    opacity: 0.5;
-
-}
-/* Adds hover effect for project cards */
-.projectCard img:hover {
-    opacity: 1.0;
-}
-
-.projectCard .projectCaptions {
-    position: absolute;
-    z-index: 1;
-    padding: 1%;
-    bottom: 10%;
-    border: 6px solid #ca691c;
-    border-radius: 3px;
-    box-shadow: 10px 10px 6px #c78a61;
-    background-color: #fdd182;
-    color: #3a3a3a;
-    font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* Styling for featured project within project showcase*/
-#image1 {
-    position: relative;
-}
-
-#image1 img {
-    width: 100%;
-    opacity: 0.5;
-}
-/* Adds hover effect for featured project */
-#image1 img:hover {
-    opacity: 1.0;
-}
-
-#image1 .projectCaptions {
-    position: absolute;
-    z-index: 1;
-    padding: 1%;
-    bottom: 10%;
-    background-color: #fdd182;
-    color: #fff;
-    font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+a {
+    text-decoration: none;
 }

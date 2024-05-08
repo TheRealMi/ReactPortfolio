@@ -1,18 +1,19 @@
-import './about.css';
+import classes from './about.module.css';
 
 export default function About() {
   return (
-    <div className="container">
+    <div className={classes.container}>
       
-      <div className='frame'>
+      <div className={classes.frame}>
       <section className="profilePic">
         <img src="./assets/images/pixelpfp.png" alt="Pixelated Avatar" />
       </section>
       </div>
-      <div className='banner'>
+      <div className={classes.info}>
+      <div className={classes.banner}>
         <h1>About Mi</h1>
       </div>
-      <section className="text">
+      <section className={classes.text}>
         <p>
           I'm a self-proclaimed "renaissance woman" who thrives in the world of
           tech. While I have a strong background in full-stack development, my
@@ -34,6 +35,7 @@ export default function About() {
           field. Together, we can create something extraordinary. 💪💻
         </p>
       </section>
+      </div>
     
     </div>
   );

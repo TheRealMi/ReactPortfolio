@@ -1,17 +1,17 @@
+import classes from './resume.module.css';
+
 export default function Resume() {
   return (
     <section className="contentSection">
-      <section className="scrollIcon">
-        <img src="./assets/images/ResumeScroll.png" alt="Pixelated Scroll" />
-      </section>
-      <section className="text">
-        <h4>
-          <a href="./assets/images/Mia Olmedillo resume update.pdf">
+      <section>
+      <section className={classes.container}>
+        <img src="./assets/images/ResumeScroll.png" alt="Pixelated Scroll"/>
+          <a className={classes.scrollText} href="./assets/images/Mia Olmedillo resume update.pdf">
             Download my Resume!
           </a>
-        </h4>
-        <br />
-        <br />
+      </section>
+      </section>
+      <section className="text">
         <h4>My Proficiencies</h4>
         <br />
         <ul>

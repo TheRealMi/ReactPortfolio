@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.scrollText {
+    position: absolute;
+    top: 50%;
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #2e222f;
+    font-family: "Lucida Handwriting", fantasy; 
+    font-size: large;
+    background-image: linear-gradient(
+    to right,
+    white,
+    white 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.scrollText:before {
+    content: '';
+    background: white;
+    display: block;
+    position: absolute;
+  }
+
+  .scrollText:hover {
+    background-position: 0;
+   }
+
+   .scrollText:hover::before {
+    width: 100%;
+  }

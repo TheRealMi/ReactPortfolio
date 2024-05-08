@@ -1,41 +1,44 @@
 /* borders #663931 */
-
+@font-face {
+    font-family: 'GamerFont';
+    src: url('public/assets/images/Gamer.ttf');
+}
 .container {
-    position: relative;
     border: 6px solid #ca691c;
     border-radius: 8px;
     background-color: #ffc59b;
     transform: translate(0, 50px);
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    margin: 2%;
 }
 
 .frame {
-    height: 3%;
+    height: 25%;
     position: relative;
     background: #fdd182;
-    margin-top: 50px;
+    margin: 50px;
     border: 6px solid #ca691c;
     border-radius: 3px;
-    box-shadow: 10px 10px 6px #c78a61;
-    display: inline-block;
-    
+    box-shadow: 10px 10px 6px #c78a61;    
+}
+
+.info {
+    margin: 50px;
+    justify-content: center;
 }
 
 .banner {
-    width: 25%;
+    width: 15%;
     background: #fdd182;
     border: 6px solid #ca691c;
     border-radius: 6px;
-    position: absolute;
-    top: 50px;
-    left: 325px;
     box-shadow: 10px 10px 6px #c78a61;
     text-align: center;
+    margin-bottom: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .text {
-    position: relative;
     text-wrap: balance;
-    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
