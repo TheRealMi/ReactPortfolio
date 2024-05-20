@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 2rem;
+}
+
 .scrollText {
     position: absolute;
     top: 50%;
