@@ -3,7 +3,7 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="fixed" id="bottom">
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs d-flex flex-nowrap justify-content-around">
       <li className="nav-item">
         <a
           href="#about"
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <img src="/assets/images/resume.png" alt="resume" />
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item ">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}

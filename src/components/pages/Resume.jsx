@@ -9,12 +9,6 @@ export default function Resume() {
             Download my Resume!
           </a>
       </div>
-      <div className={classes.container}>
-      <h4>Transferable Skills</h4>
-      <div className={classes.icons}>
-        
-      </div>
-      </div>
       <div className="text">
         <h4>Professional Summary</h4>
         <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -29,6 +23,17 @@ export default function Resume() {
           <li>React</li>
         </ul>
         
+      </div>
+      <div className={classes.container}>
+      <h4>Transferable Skills</h4>
+      <div className={classes.icongrid}>
+        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="https://picsum.photos/100/100" alt="" />
+      </div>
       </div>
     </section>
   );

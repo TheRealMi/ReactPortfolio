@@ -16,7 +16,7 @@
     height: 25%;
     position: relative;
     background: #fdd182;
-    margin: 50px;
+    margin: 3rem;
     border: 6px solid #ca691c;
     border-radius: 3px;
     box-shadow: 10px 10px 6px #c78a61;    
@@ -28,7 +28,7 @@
 }
 
 .banner {
-    width: 15%;
+    width: auto;
     background: #fdd182;
     border: 6px solid #ca691c;
     border-radius: 6px;
