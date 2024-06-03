@@ -14,7 +14,7 @@ export default function Resume() {
       </div>
       <div className="text">
         <h4>Professional Summary</h4>
-        <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>I have always been drawn to tech. From founding a nationally competitive robotics club in high-school, to taking elective courses in Python and Game Development in college, to implementing systems to aid in my original career field of Animal Science, the tech field has forever remained relevant to me. In 2018 I graduated from Cornell University with a B.S. in Animal Science, and I worked in that field for about 6 years before realizing I needed a change. Now, I seek to bring my background, skills, and passions to a new career path in software engineering.</p>
         <h4>Technical Skills</h4>
         <ul>
           <FontAwesomeIcon icon={faHtml5} size="5x"/>
