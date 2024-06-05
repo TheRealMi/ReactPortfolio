@@ -37,9 +37,9 @@ export default function Resume() {
       <div className={classes.skills}>
       <h4>Transferable Skills</h4>
       <div className={classes.icongrid}>
-        <img src="https://picsum.photos/100/100" alt="" />
-        <img src="https://picsum.photos/100/100" alt="" />
-        <img src="https://picsum.photos/100/100" alt="" />
+        <img src="/assets/images/teamwork-export.png" alt="" />
+        <img src="/assets/images/empathy.png" alt="" />
+        <img src="/assets/images/attn2detail.png" alt="" />
         <img src="https://picsum.photos/100/100" alt="" />
         <img src="https://picsum.photos/100/100" alt="" />
         <img src="https://picsum.photos/100/100" alt="" />
