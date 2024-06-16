@@ -1,3 +1,14 @@
+.backboard {
+  border: 6px solid #ca691c;
+    border-radius: 8px;
+    background-color: #ffc59b;
+    transform: translate(0, 50px);
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 2%;
+    padding-bottom: 8%;
+}
+
 .container {
     position: relative;
     text-align: center;

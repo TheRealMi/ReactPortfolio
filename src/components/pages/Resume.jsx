@@ -6,6 +6,7 @@ import { faHtml5, faCss3Alt, faBootstrap, faJs, faNode, faReact, faEnvira} from 
 export default function Resume() {
   return (
      <section className="contentSection">
+      <div className={classes.backboard}>
       <div className={classes.container}>
         <img src="./assets/images/ResumeScroll.png" alt="Pixelated Scroll"/>
           <a className={classes.scrollText} href="./assets/images/Mia Olmedillo resume update.pdf">
@@ -43,6 +44,7 @@ export default function Resume() {
         <img src="https://picsum.photos/100/100" alt="" />
         <img src="https://picsum.photos/100/100" alt="" />
         <img src="https://picsum.photos/100/100" alt="" />
+      </div>
       </div>
       </div>
     </section>

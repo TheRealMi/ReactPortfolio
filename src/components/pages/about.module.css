@@ -10,6 +10,7 @@
     transform: translate(0, 50px);
     display: flex; 
     margin: 2%;
+    padding-bottom: 20%;
 }
 
 .frame {
