@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs d-flex flex-nowrap justify-content-around">
       <li className="nav-item">
         <a
-          href="#about"
+          href="#bottom"
           onClick={() => handlePageChange('About')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#work"
+          href="#bottom"
           onClick={() => handlePageChange('Work')}
           // Check to see if the currentPage is `Work`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#resume"
+          href="#bottom"
           onClick={() => handlePageChange('Resume')}
           // This is a conditional (ternary) operator that checks to see if the current page is "resume"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item ">
         <a
-          href="#contact"
+          href="#bottom"
           onClick={() => handlePageChange('Contact')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
