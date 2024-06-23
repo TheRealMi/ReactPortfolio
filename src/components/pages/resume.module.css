@@ -1,7 +1,7 @@
 .backboard {
   border: 6px solid #ca691c;
     border-radius: 8px;
-    background-color: #ffc59b;
+    background-color: #fbddcd;
     transform: translate(0, 50px);
     display: flex;
     flex-wrap: wrap; 
